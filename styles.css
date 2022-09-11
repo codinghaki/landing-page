@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.sectionOne{
+    background-color: #1f2937;
+}
+
+#headerLogo{
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: 400px;
+}
+
+.headerLink{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navBarLeft,.navBarRight{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.heroSubtext{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+img{
+    width: 600px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+ .contentRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+ }
+
+ .contentLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    justify-content: center;
+    margin-left: 200px ;
+}
+
+.firstButton{
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 1px #3882f6;
+    border-radius: 10px;
+}
+
+
