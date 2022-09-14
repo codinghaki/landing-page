@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-   border: 3px solid red;
 }
 
 body{
@@ -16,6 +15,7 @@ ul{
 
 .sectionOne{
     background-color: #1f2937;
+    height: 600ox;
 }
 
 #headerLogo{
@@ -95,6 +95,10 @@ img{
     border-radius: 10px;
 }
 
+.secondSection{
+    height: 500px;
+}
+
 h2{
     font-size: 36px;
     font-weight: bolder;
@@ -119,4 +123,68 @@ h2{
 
 .blueBoxMessage{
     margin: 25px;
+}
+
+.thirdSection{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    flex-direction: column;
+}
+
+.quoteText{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.thirdPara{
+    font-weight: bolder;
+    margin-left: 682px;
+}
+
+.fourthSection{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthSectionBlueBox{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    height: 200px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.callToAction{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.lastButton{
+    color: white;
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText{
+    color: white;
 }
