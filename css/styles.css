@@ -93,3 +93,10 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
