@@ -60,3 +60,13 @@ header {
     width: 2000px;
 }
 
+.quote-section {
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-sayer {
+    display: flex;
+    justify-content: end;
+}
