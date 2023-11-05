@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.right-side-header {
+    margin-right: 200px;
+}
+
+.left-side-header {
+    margin-left: 200px;
+}
