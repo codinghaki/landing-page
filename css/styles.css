@@ -70,3 +70,26 @@ header {
     display: flex;
     justify-content: end;
 }
+
+.second-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-card {
+    display: flex;
+    width: 400px;
+}
+
+.left-side-call-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-call-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
