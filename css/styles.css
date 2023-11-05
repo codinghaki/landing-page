@@ -32,3 +32,31 @@ header {
     align-items: flex-start;
     margin-right: 600px;
 }
+
+.call-to-action {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes-container {
+    display: flex;
+    width: 2000px;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    border: 1px solid blue;
+}
+
+.subtext-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 2000px;
+}
+
